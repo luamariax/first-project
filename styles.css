@@ -1,0 +1,156 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serisans-serif;
+}f, 
+
+body {
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background: #fff;
+}
+
+.logo {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f00;
+}
+
+/* Container Principal */
+.container {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+}
+
+.content {
+    flex: 3;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+
+}
+
+
+
+.co
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.content h1 {
+    margin-bottom: 10px;
+    font-size: 2rem;
+    font-weight: optima;
+
+
+}
+
+.content  p {
+    font-size: 2rem;
+
+}
+
+.content button {
+    background: #f00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background 0.3s;
+}
+
+.content button:hover {
+    background: #b30000;
+}
+
+/* Sidebar */
+.sidebar {
+    flex: 1;
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+
+.sidebar h2 {
+    margin-bottom: 10px;
+    color: #e6b800;
+}
+
+.sidebar-item {
+    margin-bottom: 20px;
+}
+
+.sidebar-item h3 {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+}
+
+.sidebar-item p {
+    font-size: 0.9rem;
+}
+
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+.feature {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.feature h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
